@@ -1,0 +1,19 @@
+  {
+    "name": "ChatGPT Exporter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Export your ChatGPT session into JSON",
+    "icons": {
+      "48": "icon48.png"
+    },
+    "permissions": [
+      "scripting",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://chatgpt.com/*"
+    ]
+  }
